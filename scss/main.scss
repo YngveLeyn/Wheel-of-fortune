@@ -1,13 +1,17 @@
 @import "base/reset";
 
+
 @import "helpers/variables";
 @import "helpers/mixins";
+@import "helpers/typography";
 
 @import "layout/grid";
 @import "layout/header";
 @import "layout/footer"; 
 
 @import "components/buttons";
+@import "components/wof";
+
 @import "pages/page";
 
 @import "vendors/font-awesome/scss/font-awesome";

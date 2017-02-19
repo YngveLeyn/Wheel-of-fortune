@@ -1,0 +1,21 @@
+a{
+	text-decoration: none;
+	color: $color--main;
+}
+
+button{ 
+	background-color: $color--main;
+	border: 1px solid $color--main;
+	color: $color--white;
+	padding: 20px;
+	font-family: $font--main;
+	&:focus{
+    		outline: none;
+		
+	}
+	&:hover{
+		background-color: $color--main;
+		color: $color--white;
+
+	}
+}
